@@ -2,17 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>doccloset-core</artifactId>
+        <groupId>nl.techop.doc.closet</groupId>
+        <version>0.1</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>nl.techop.doc.closet</groupId>
-    <artifactId>doccloset-core</artifactId>
-    <packaging>pom</packaging>
-    <version>0.1</version>
-    <modules>
-        <module>closet-queue</module>
-        <module>closet-search</module>
-        <module>closet-store</module>
-    </modules>
+    <artifactId>closet-search</artifactId>
 
 
 </project>
